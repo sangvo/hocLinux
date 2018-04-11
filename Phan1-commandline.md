@@ -36,6 +36,7 @@ Cú pháp : **`$ cat /etc/passwd > /home/sangvo/mypassword.txt`**
 - Dùng lệnh tail cho biết thông tin về **3** user cuối trong `mypasswords.txt`
 -- Cú pháp: **`$ tail mypassword.txt –line=3`**
 - Lệnh nào trong ba lệnh trên cho ta biết thông tin từ user thứ 4 cho đến hết.
+
 -> Áp dụng cả 3 lênh 
 
 ---
