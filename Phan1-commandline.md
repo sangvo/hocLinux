@@ -23,6 +23,7 @@ Cú pháp
 - Hiển thị các file trong thư mục `/usr/bin`  và sắp xếp kết quả theo thứ thự tăng dần/ giảm dần.
 -- Cú pháp:
 Sắp xếp a -> z : **`$ ls /usr/bin `**
+
 Ngược lại: **`$ls /usr/bin -r  `**
 - Hiển thị số lượng các file trong một thư mục cụ thể nào đó (ví dụ : /etc). Gợi ý : sử dụng cơ chế ống lệnh (pipe)
 -- Cú pháp: **`$ ls | wc -l`**
