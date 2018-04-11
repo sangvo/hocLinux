@@ -21,8 +21,10 @@ Cú pháp
 - Hiển thị *số dòng* của một file text.txt
 -- Cú pháp: **`$ wc -l tenfile.txt`**
 - Hiển thị các file trong thư mục `/usr/bin`  và sắp xếp kết quả theo thứ thự tăng dần/ giảm dần.
+
 -- Cú pháp:
 Sắp xếp a -> z : **`$ ls /usr/bin `**
+
 Ngược lại: **`$ls /usr/bin -r  `**
 - Hiển thị số lượng các file trong một thư mục cụ thể nào đó (ví dụ : /etc). Gợi ý : sử dụng cơ chế ống lệnh (pipe)
 -- Cú pháp: **`$ ls | wc -l`**
@@ -34,6 +36,6 @@ Cú pháp : **`$ cat /etc/passwd > /home/sangvo/mypassword.txt`**
 - Dùng lệnh tail cho biết thông tin về **3** user cuối trong `mypasswords.txt`
 -- Cú pháp: **`$ tail mypassword.txt –line=3`**
 - Lệnh nào trong ba lệnh trên cho ta biết thông tin từ user thứ 4 cho đến hết.
-> Áp dụng cả 3 lênh 
+-> Áp dụng cả 3 lênh 
 
 ---
