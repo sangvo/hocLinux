@@ -170,3 +170,78 @@ copy nó qua class5 và class6.
  sangvo  ~  mv athena/class4/ccna/ athena/class5/ccnp
 
 ```
+### 6. Thực hiện các thao tác sau
+1. Cho biết thư mục `HOME` của mình
+```
+pwd
+/home/sangvo
+```
+2. Giả sử đang ở thư mục `home` của bạn, hãy cho biết đường dẫn tương đối đến thư mục /etc
+```
+cd /etc
+```
+3. Cho biết lệnh nào chuyển sang thư mục `usr/lib`
+```
+cd /usr/lib
+```
+4. Cho biết lệnh liệt kê tất cả file và thư mục ở thư mục `HOME`
+```
+ls  -a
+```
+5. Cho biết lệnh dùng để liệt kê tất cả file và thư mục kể cả thư mục con ở thư mục `HOME`, xem kết quả này từng trang.
+```
+ls -R | more
+```
+6. Cho biết lệnh tạo `alias` là **lietke** tương đương với lệnh `ls –l`
+```
+alias lietke="ls -l"
+```
+7. Yêu cầu như câu trên nhưng kết quả được lưu vào file `home.list`
+```
+lietke > home.list
+```
+8. Cho biết lệnh dùng để đổi tên file `home.list` trên thành `homelist.txt`
+```
+mv home.list homelist.txt
+```
+9. Cho biết lệnh tạo thư mục `linux2002` trong thư mục `HOME`
+```
+mkdir linux2002
+```
+10. Cho biết lệnh để copy file `homelist.txt` ở trên vào thư mục `linux2002`
+```
+cp homelist.txt linux2002/
+```
+11. Cho biết lệnh liệt kê tất cả các file trong thư mục `/etc` bắt đầu bằng b, k, n
+```
+ls /etc/[bkn]*
+```
+12. Cho biết lệnh liệt kê tất cả các file trong thư mục `/etc` bắt đầu bằng các ký tự từ m đến t (m-t)
+```
+ls –d /etc/[m-t]*
+```
+ 
+ 13. Cho biết lệnh liệt kê tất cả các file trong thư mục `/etc` có ký tự thứ hai là h
+```
+ls /etc/?h*
+```
+ 14. Cho biết lệnh liệt kê tất cả các file trong thư mục `/etc` có ký tự kế cuối cùng là **a**
+```
+ls /etc/*a?
+```
+15. Cho biết lệnh liệt kê tất cả các file trong thư mục /etc bắt đầu bằng ký tự từ a-e và không bắt đầu bằng b, c
+```
+ls /etc/[a-e]* =>>Miss
+```
+16. Cho biết lệnh tạo file `-myfile` trong thư mục `HOME` dùng `touch` hoặc `cat`
+```
+touch -myfile
+```
+or
+```
+cat > -myfile
+```
+17. Cho biết lệnh xoá file `-myfile` đã tạo ở trên
+```
+rm  ./-myfile
+```
